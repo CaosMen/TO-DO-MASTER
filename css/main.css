@@ -58,7 +58,7 @@ header p {
 }
 
 .transparent-input {
-    background: #00000000;
+    background: transparent !important;
     font-weight: 200;
     border: none;
     display: block;
