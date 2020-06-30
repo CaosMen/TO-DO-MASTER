@@ -1,7 +1,7 @@
 var input = document.getElementById("ToDoInput");
 
 input.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
+    if (event.keyCode === 13 && input.value) {
         event.preventDefault();
 
         var ToDo = null;
